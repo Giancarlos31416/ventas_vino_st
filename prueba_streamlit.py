@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import pickle
-
+import sklearn
 
 # Cargar el modelo desde el archivo .pkl
 with open('modelo_regresion_lineal.pkl', 'rb') as file:
